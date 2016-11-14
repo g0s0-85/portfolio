@@ -10,48 +10,61 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100|Roboto|Work+Sans:100" rel="stylesheet">
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class="container">
             <header class="row">
-                <div class="col-md-6">
-                    <img src="images/logo.svg">
+                <div class="col-md-6 col-sm-6">
+                    <img src="images/logo.png" class="logo" alt="Udacity logo">
                 </div>
-                <div class="col-md-6 text-right text-uppercase">
+                <div class="col-md-6 text-right text-uppercase center_small">
                     <h1>Mark Eatman</h1>
                     <h3>Front-end Web Developer</h3>
                 </div>
+                <div class="col-md-6 text-uppercase">
+                    <nav>
+                        <ul>
+                            <li><a href="/About me/">About me</a></li>
+                            <li><a href="/Resume/">Resume</a></li>
+                            <li><a href="/Contact/">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
             <hr>
+            <article class="row">
+                <p>Welcome to my portfolio site. Here you will find examples of my work in Front-end Web Development. Feel free to contact me or take a look at my resume. </p>
+            </article>
             <div class="row">
                 <div class="col-md-12">
-                    <img src="images/coding.jpg" class="img-responsive">
+                    <img src="images/coding.jpg" class="img-responsive img-rounded" alt="coding picture">
                 </div>
             </div>
-            <div class="row">
+            <div class="row center_small">
                 <div class="col-md-12">
                     <h2>Featured Work</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="img-responsive" src="http://placekitten.com/350/350" data-target="#project1">
-                    <h3>Project 1</h3>
-                    <p><a href="http://github.com/">Link to project</a></p>
+            <section class="row center_small center_medium">
+                <div class="col-md-4 col-sm-12">
+                    <img class="img-responsive img-rounded project_image" src="http://placekitten.com/350/350" alt="image placeholder of kitten">
+                    <h4 class="center_text">Project 1</h4>
+                    <p class="center_text"><a href="http://github.com/">Link to project</a></p>
                 </div>
-                <div class="col-md-4">
-                    <img src="http://placekitten.com/350/350">
-                    <h3>Project 2</h3>
-                    <p><a href="http://github.com/">Link to project</a></p>
+                <div class="col-md-4 col-sm-12">
+                    <img class="img-responsive img-rounded project_image" src="http://placekitten.com/350/350" alt="image placeholder of kitten">
+                    <h4 class="center_text">Project 2</h4>
+                    <p class="center_text"><a href="http://github.com/">Link to project</a></p>
                 </div>
-                <div class="col-md-4">
-                    <img src="http://placekitten.com/350/350">
-                    <h3>Project 3</h3>
-                    <p><a href="http://github.com/">Link to project</a></p>
+                <div class="col-md-4 col-sm-12">
+                    <img class="img-responsive img-rounded project_image" src="http://placekitten.com/350/350" alt="image placeholder of kitten">
+                    <h4 class="center_text">Project 3</h4>
+                    <p class="center_text"><a href="http://github.com/">Link to project</a></p>
                 </div>
-            </div>
+            </section>
         </div>
     </div>
 </body>
